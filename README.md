@@ -11,12 +11,12 @@
 
 #COMPILAR E EXECUTAR (terminal linux):
   Assumindo que se está no directório que inclui o directório bci (que é o directório raiz que contém o código da aplicação),a compilação 
-  pode ser feita da seguinte formas: javac -cp po-uilib.jar:. `find bci -name "*.java"`   
+  pode ser feita da seguinte formas: javac -cp po-uilib.jar:. `find bci -Name "*.java"`   
 
   Assumindo que se está ainda no mesmo directório que inclui o diretório raiz do projecto, para executar o projecto é necessário 
   dar o seguinte comando: java -cp po-uilib.jar:. bci.app.App
   
 #FERRAMENTAS USADAS:
-  Java 
-  Shell script (Linux)
-  Biblioteca po-uilib.jar para interface de menus
+  Java,
+  Shell script (Linux),
+  Biblioteca po-uilib.jar para interface de menus.
